@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>                                          
+<manifest>
+    <remote name="origin"
+            fetch="../../"/>
+
+    <project path="bl1/bl1-s5p6818" name="nexell/bl1/bl1-s5p6818" groups="bl1" remote="origin" revision="nexell" />
+</manifest>
