@@ -8,5 +8,5 @@
     <project path="u-boot/u-boot-2017.5" name="nexell/uboot/u-boot" groups="nxp3220" remote="origin" revision="2017.05-nxp3220" />
     <project path="tools" name="nexell/nxp3220/tools" groups="nxp3220" remote="origin" revision="nexell" />
     <project path="apps" name="nexell/nxp3220/apps" groups="nxp3220" remote="origin" revision="master" />
-    <project path="rootfs" name="nexell/buildroot" groups="nxp3220" remote="origin" revision="2018.02-nexell" />
+    <project path="rootfs/buildroot" name="nexell/buildroot" groups="nxp3220" remote="origin" revision="2018.02-nexell" />
 </manifest>
