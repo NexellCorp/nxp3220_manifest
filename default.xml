@@ -3,9 +3,9 @@
     <remote name="origin"
             fetch="../../"/>
 
-    <project path="bl1/bl1-nxp3220" name="nexell/bl1/bl1-nxp3220" groups="bl1" remote="origin" revision="master" />
-    <project path="bl2/bl2-nxp3220" name="nexell/bl2/bl2-nxp3220" groups="bl1" remote="origin" revision="master" />
-    <project path="bl32/bl32-nxp3220" name="nexell/bl32/bl32-nxp3220" groups="bl1" remote="origin" revision="master" />
+    <project path="bootloader/bl1-nxp3220" name="nexell/bl1/bl1-nxp3220" groups="bl1" remote="origin" revision="master" />
+    <project path="bootloader/bl2-nxp3220" name="nexell/bl2/bl2-nxp3220" groups="bl1" remote="origin" revision="master" />
+    <project path="bootloader/bl32-nxp3220" name="nexell/bl32/bl32-nxp3220" groups="bl1" remote="origin" revision="master" />
     <project path="kernel/kernel-4.14" name="nexell/linux/kernel/linux-stable" groups="nxp3220" remote="origin" revision="linux-4.14-nxp3220" />
     <project path="u-boot/u-boot-2017.5" name="nexell/linux/u-boot/u-boot-2017.05" groups="nxp3220" remote="origin" revision="2017.05-nxp3220" />
     <project path="tools" name="nexell/nxp3220/tools" groups="nxp3220" remote="origin" revision="nexell" />
