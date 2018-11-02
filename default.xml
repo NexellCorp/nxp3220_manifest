@@ -1,14 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>                                          
+<?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <remote name="origin"
             fetch="../../"/>
 
-    <project path="bootloader/bl1-nxp3220" name="nexell/bl1/bl1-nxp3220" groups="bl1" remote="origin" revision="master" />
+    <project path="bootloader/binary" name="nexell/nxp3220/bl1-binary" groups="bl1" remote="origin" revision="master" />
     <project path="bootloader/bl2-nxp3220" name="nexell/bl2/bl2-nxp3220" groups="bl1" remote="origin" revision="master" />
     <project path="bootloader/bl32-nxp3220" name="nexell/bl32/bl32-nxp3220" groups="bl1" remote="origin" revision="master" />
-    <project path="kernel/kernel-4.14" name="nexell/linux/kernel/linux-stable" groups="nxp3220" remote="origin" revision="linux-4.14-nxp3220" />
-    <project path="u-boot/u-boot-2018.5" name="nexell/linux/u-boot/u-boot-2017.05" groups="nxp3220" remote="origin" revision="2018.05-nxp3220" />
+    <project path="kernel-4.14" name="nexell/linux/kernel/linux-stable" groups="nxp3220" remote="origin" revision="linux-4.14-nxp3220" />
+    <project path="u-boot-2018.5" name="nexell/linux/u-boot/u-boot-2017.05" groups="nxp3220" remote="origin" revision="2018.05-nxp3220" />
     <project path="tools" name="nexell/nxp3220/tools" groups="nxp3220" remote="origin" revision="nexell" />
     <project path="apps" name="nexell/nxp3220/apps" groups="nxp3220" remote="origin" revision="master" />
-    <project path="rootfs/buildroot" name="nexell/buildroot/buildroot" groups="nxp3220" remote="origin" revision="2018.02-nexell" />
+    <project path="buildroot" name="nexell/buildroot/buildroot" groups="nxp3220" remote="origin" revision="2018.05-nexell" />
 </manifest>
