@@ -11,4 +11,9 @@
     <project path="tools" name="nexell/nxp3220/tools" groups="nxp3220" remote="origin" revision="nexell" />
     <project path="apps" name="nexell/nxp3220/apps" groups="nxp3220" remote="origin" revision="master" />
     <project path="buildroot" name="nexell/buildroot/buildroot" groups="nxp3220" remote="origin" revision="2018.05-nexell" />
+    <project path="yocto/poky" name="nexell/yocto/poky" groups="yocto" remote="origin" revision="sumo" />
+    <project path="yocto/openembedded-core" name="nexell/yocto/openembedded-core" groups="origin" remote="origin" revision="sumo" />
+    <project path="yocto/meta-openembedded" name="nexell/yocto/meta-openembedded" groups="origin" remote="origin" revision="sumo" />
+    <project path="yocto/meta-qt5" name="nexell/yocto/meta-qt5" groups="yocto" remote="origin" revision="sumo" />
+    <project path="yocto/meta-nexell" name="nexell/yocto/krogoth/meta-nexell" groups="origin" remote="origin" revision="sumo" />
 </manifest>
