@@ -1,19 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <remote name="origin"
-            fetch="../../"/>
+    <include name="remote_nexell_ssh.xml" />
 
-    <project path="firmwares/binary" name="nexell/nxp3220/bl1-binary" groups="bl1" remote="origin" revision="master" />
-    <project path="firmwares/bl2-nxp3220" name="nexell/bl2/bl2-nxp3220" groups="bl1" remote="origin" revision="master" />
-    <project path="firmwares/bl32-nxp3220" name="nexell/bl32/bl32-nxp3220" groups="bl1" remote="origin" revision="master" />
-    <project path="kernel-4.14" name="nexell/linux/kernel/linux-stable" groups="nxp3220" remote="origin" revision="linux-4.14-nxp3220" />
-    <project path="u-boot-2018.5" name="nexell/linux/u-boot/u-boot-2017.05" groups="nxp3220" remote="origin" revision="2018.05-nxp3220" />
-    <project path="tools" name="nexell/nxp3220/tools" groups="nxp3220" remote="origin" revision="nexell" />
-    <project path="apps" name="nexell/nxp3220/apps" groups="nxp3220" remote="origin" revision="master" />
-    <project path="buildroot" name="nexell/buildroot/buildroot" groups="nxp3220" remote="origin" revision="2018.05-nexell" />
-    <project path="yocto/poky" name="nexell/yocto/poky" groups="yocto" remote="origin" revision="sumo" />
-    <project path="yocto/openembedded-core" name="nexell/yocto/openembedded-core" groups="origin" remote="origin" revision="sumo" />
-    <project path="yocto/meta-openembedded" name="nexell/yocto/meta-openembedded" groups="origin" remote="origin" revision="sumo" />
-    <project path="yocto/meta-qt5" name="nexell/yocto/meta-qt5" groups="yocto" remote="origin" revision="sumo" />
-    <project path="yocto/meta-nexell" name="nexell/yocto/krogoth/meta-nexell" groups="origin" remote="origin" revision="sumo" />
+    <project path="firmwares/binary" name="bl1_nxp3220-binary" groups="bl1" remote="nexell" revision="master" />
+    <project path="firmwares/bl2-nxp3220" name="bl2_nxp3220" groups="bl1" remote="nexell" revision="master" />
+    <project path="firmwares/bl32-nxp3220" name="bl32_nxp3220" groups="bl1" remote="nexell" revision="master" />
+    <project path="kernel-4.14" name="linux_kernel-4.14.x" groups="nxp3220" remote="nexell" revision="linux-4.14-nxp3220" />
+    <project path="u-boot-2018.5" name="u-boot-2017.05" groups="nxp3220" remote="nexell" revision="2018.05-nxp3220" />
+    <project path="tools" name="nxp3220_tools" groups="nxp3220" remote="nexell" revision="nexell" />
+    <project path="apps" name="nxp3220_apps" groups="nxp3220" remote="nexell" revision="master" />
+    <project path="buildroot" name="buildroot" groups="nxp3220" remote="nexell" revision="2018.05-nexell" />
+    <project path="yocto/poky" name="yocto_poky" groups="yocto" remote="nexell" revision="sumo" />
+    <project path="yocto/openembedded-core" name="yocto_openembedded-core" groups="yocto" remote="nexell" revision="sumo" />
+    <project path="yocto/meta-openembedded" name="yocto_meta-openembedded" groups="yocto" remote="nexell" revision="sumo" />
+    <project path="yocto/meta-qt5" name="yocto_meta-qt5" groups="yocto" remote="nexell" revision="sumo" />
+    <project path="yocto/meta-nexell" name="yocto_meta-nexell" groups="yocto" remote="nexell" revision="sumo" />
 </manifest>
