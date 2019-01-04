@@ -7,7 +7,7 @@
     <project path="firmwares/bl32-nxp3220" name="bl32_nxp3220" groups="bl1" remote="nexell" revision="master" />
     <project path="kernel-4.14" name="linux_kernel-4.14.x" groups="nxp3220" remote="nexell" revision="linux-4.14-nxp3220" />
     <project path="u-boot-2018.5" name="u-boot-2017.05" groups="nxp3220" remote="nexell" revision="2018.05-nxp3220" />
-    <project path="tools" name="nxp3220_tools" groups="nxp3220" remote="nexell" revision="nexell" />
+    <project path="tools" name="nxp3220_tool" groups="nxp3220" remote="nexell" revision="nexell" />
     <project path="apps" name="nxp3220_apps" groups="nxp3220" remote="nexell" revision="master" />
     <project path="buildroot" name="buildroot" groups="nxp3220" remote="nexell" revision="2018.05-nexell" />
     <project path="yocto/poky" name="yocto_poky" groups="yocto" remote="nexell" revision="sumo" />
