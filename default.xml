@@ -13,6 +13,6 @@
     <project path="yocto/poky" name="yocto_poky" groups="yocto" remote="nexell" revision="sumo" />
     <project path="yocto/openembedded-core" name="yocto_openembedded-core" groups="yocto" remote="nexell" revision="sumo" />
     <project path="yocto/meta-openembedded" name="yocto_meta-openembedded" groups="yocto" remote="nexell" revision="sumo" />
-    <project path="yocto/meta-qt5" name="yocto_meta-qt5" groups="yocto" remote="nexell" revision="sumo" />
+    <project path="yocto/meta-qt5" name="yocto_meta-qt5" groups="yocto" remote="nexell" revision="krogoth" />
     <project path="yocto/meta-nexell" name="yocto_meta-nexell" groups="yocto" remote="nexell" revision="sumo" />
 </manifest>
