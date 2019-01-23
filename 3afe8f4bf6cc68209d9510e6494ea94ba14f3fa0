@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "e2f5303a_c69b660f",
+        "filename": "default.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1015645
+      },
+      "writtenOn": "2019-01-23T00:42:33Z",
+      "side": 1,
+      "message": "please change to solution/daudio-sdk",
+      "range": {
+        "startLine": 23,
+        "startChar": 19,
+        "endLine": 23,
+        "endChar": 42
+      },
+      "revId": "3afe8f4bf6cc68209d9510e6494ea94ba14f3fa0",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
