@@ -9,6 +9,7 @@
     <project path="u-boot-2018.5" name="u-boot-2017.05" groups="nxp3220" remote="nexell" revision="2018.05-nxp3220" />
     <project path="tools" name="nxp3220_tool" groups="nxp3220" remote="nexell" revision="nexell" />
     <project path="apps/nx_video_api_test" name="linux_apps_nx_video_api_test" groups="apps" remote="nexell" revision="nexell" />
+    <project path="apps/hwio" name="linux_apps_hwio" groups="apps" remote="nexell" revision="nexell" />
     <project path="buildroot" name="buildroot" groups="nxp3220" remote="nexell" revision="2018.05-nexell" />
     <project path="yocto/poky" name="yocto_poky" groups="yocto" remote="nexell" revision="sumo" />
     <project path="yocto/openembedded-core" name="yocto_openembedded-core" groups="yocto" remote="nexell" revision="sumo" />
