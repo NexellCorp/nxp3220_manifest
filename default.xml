@@ -19,6 +19,7 @@
     <project path="yocto/meta-nexell" name="yocto_meta-nexell" groups="yocto" remote="nexell" revision="sumo" />
     <project path="library/nx-v4l2" name="linux_library_nx-v4l2" groups="library" remote="nexell" revision="nexell" />
     <project path="library/nx-video-api" name="linux_library_nx-video-api" groups="library" remote="nexell" revision="nexell" />
+	<project path="library/nx-uds" name="linux_library_nx_uds" groups="library" remote="nexell" revision="nexell" />
     <project path="library/nx-gst-meta" name="linux_library_nx-gst-meta" groups="library" remote="nexell" revision="nexell" />
     <project path="library/gst-plugins-video-dec" name="linux_library_gst-plugins-video-dec" groups="library" remote="nexell" revision="nexell" />
     <project path="library/gst-plugins-video-sink" name="linux_library_gst-plugins-video-sink" groups="library" remote="nexell" revision="nexell" />
