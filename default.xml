@@ -11,6 +11,7 @@
     <project path="apps/nx_video_api_test" name="linux_apps_nx_video_api_test" groups="apps" remote="nexell" revision="nexell" />
     <project path="apps/hwio" name="linux_apps_hwio" groups="apps" remote="nexell" revision="nexell" />
     <project path="apps/i2c_test" name="linux_apps_i2c_test" groups="apps" remote="nexell" revision="nexell" />
+    <project path="apps/disk_test" name="linux_apps_disk_test" groups="apps" remote="nexell" revision="nexell" />
     <project path="buildroot" name="buildroot" groups="nxp3220" remote="nexell" revision="2019.02-nexell" />
     <project path="yocto/poky" name="yocto_poky" groups="yocto" remote="nexell" revision="sumo" />
     <project path="yocto/openembedded-core" name="yocto_openembedded-core" groups="yocto" remote="nexell" revision="sumo" />
