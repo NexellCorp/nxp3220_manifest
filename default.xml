@@ -28,5 +28,8 @@
     <project path="library/gst-plugins-video-dec" name="linux_library_gst-plugins-video-dec" groups="library" remote="nexell" revision="nexell" />
     <project path="library/gst-plugins-video-sink" name="linux_library_gst-plugins-video-sink" groups="library" remote="nexell" revision="nexell" />
     <project path="library/libdirectfb-nexell" name="linux_library_libdirectfb-nexell" groups="library" remote="nexell" revision="nexell" />
+    <project path="library/libdrm" name="linux_library_libdrm" groups="library" remote="nexell" revision="nexell" />
+    <project path="library/nx-renderer" name="linux_library_nx-renderer" groups="library" remote="nexell" revision="nexell" />
+    <project path="library/nx-scaler" name="linux_library_nx-scaler" groups="library" remote="nexell" revision="nexell" />
     <project path="solutions/displayaudio-sdk" name="linux_sdk_displayaudio" groups="solutions" remote="nexell" revision="master" />
 </manifest>
