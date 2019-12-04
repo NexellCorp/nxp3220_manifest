@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "e6ba67ad_7995a035",
+        "filename": "default.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1015645
+      },
+      "writtenOn": "2019-12-04T11:42:53Z",
+      "side": 1,
+      "message": "change branch to nexell",
+      "range": {
+        "startLine": 16,
+        "startChar": 115,
+        "endLine": 16,
+        "endChar": 121
+      },
+      "revId": "5a9fed49e7b8069b8c16c0f6b0283ff5304d6771",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    }
+  ]
+}
