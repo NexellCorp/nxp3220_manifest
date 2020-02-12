@@ -14,6 +14,7 @@
     <project path="apps/disk_test" name="linux_apps_disk_test" groups="apps" remote="nexell" />
     <project path="apps/nx_vip_test" name="linux_apps_nx_vip_test" groups="apps" remote="nexell" />
     <project path="apps/sleep_rtc_alarm" name="linux_apps_sleep_rtc_alarm" groups="apps" remote="nexell" />
+	<project path="apps/nx_init" name="nx_init" groups="apps" remote="nexell" />
     <project path="buildroot" name="buildroot" groups="nxp3220" remote="nexell" />
     <project path="yocto/poky" name="yocto_poky" groups="yocto" remote="nexell" />
     <project path="yocto/openembedded-core" name="yocto_openembedded-core" groups="yocto" remote="nexell" />
