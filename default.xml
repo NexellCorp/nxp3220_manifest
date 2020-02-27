@@ -2,6 +2,7 @@
 <manifest>
     <include name="remote_nexell_ssh.xml" />
 
+<<<<<<< HEAD   (9dd3b4 manifest: Adds NxQuickRearCam repository)
     <project path="firmwares/binary" name="bl1_nxp3220-binary" groups="bl1" remote="nexell" />
     <project path="firmwares/bl2-nxp3220" name="bl2_nxp3220" groups="bl1" remote="nexell" />
     <project path="firmwares/bl32-nxp3220" name="bl32_nxp3220" groups="bl1" remote="nexell" />
@@ -36,4 +37,42 @@
     <project path="library/nx-renderer" name="linux_library_nx-renderer" groups="library" remote="nexell" />
     <project path="library/nx-scaler" name="linux_library_nx-scaler" groups="library" remote="nexell" />
     <project path="solutions/displayaudio-sdk" name="linux_sdk_displayaudio" groups="solutions" remote="nexell" />
+=======
+    <project path="firmwares/binary" name="bl1_nxp3220-binary" groups="bl1" remote="nexell" revision="master" />
+    <project path="firmwares/bl2-nxp3220" name="bl2_nxp3220" groups="bl1" remote="nexell" revision="master" />
+    <project path="firmwares/bl32-nxp3220" name="bl32_nxp3220" groups="bl1" remote="nexell" revision="master" />
+    <project path="kernel-4.14" name="linux_kernel-4.14.x" groups="nxp3220" remote="nexell" revision="linux-4.14-nxp3220" />
+    <project path="u-boot-2018.5" name="u-boot-2017.05" groups="nxp3220" remote="nexell" revision="2018.05-nxp3220" />
+    <project path="tools" name="nxp3220_tool" groups="nxp3220" remote="nexell" revision="nexell" />
+    <project path="apps/nx_video_api_test" name="linux_apps_nx_video_api_test" groups="apps" remote="nexell" revision="nexell" />
+    <project path="apps/hwio" name="linux_apps_hwio" groups="apps" remote="nexell" revision="nexell" />
+    <project path="apps/i2c_test" name="linux_apps_i2c_test" groups="apps" remote="nexell" revision="nexell" />
+    <project path="apps/disk_test" name="linux_apps_disk_test" groups="apps" remote="nexell" revision="nexell" />
+    <project path="apps/nx_vip_test" name="linux_apps_nx_vip_test" groups="apps" remote="nexell" revision="nexell" />
+    <project path="apps/sleep_rtc_alarm" name="linux_apps_sleep_rtc_alarm" groups="apps" remote="nexell" revision="nexell" />
+    <project path="apps/nx_init" name="nx_init" groups="apps" remote="nexell" revision="master" />
+    <project path="apps/nx_quickrearcam" name="linux_apps_NxQuickRearCam" groups="apps" remote="nexell" revision="master" />
+    <project path="apps/iso7816_test" name="linux_apps_iso7816_test" groups="apps" remote="nexell" revision="nexell" />
+    <project path="buildroot" name="buildroot" groups="nxp3220" remote="nexell" revision="2019.02-nexell" />
+    <project path="yocto/poky" name="yocto_poky" groups="yocto" remote="nexell" revision="sumo" />
+    <project path="yocto/openembedded-core" name="yocto_openembedded-core" groups="yocto" remote="nexell" revision="sumo" />
+    <project path="yocto/meta-openembedded" name="yocto_meta-openembedded" groups="yocto" remote="nexell" revision="sumo" />
+    <project path="yocto/meta-qt5" name="yocto_meta-qt5" groups="yocto" remote="nexell" revision="krogoth" />
+    <project path="yocto/meta-swupdate" name="yocto_meta-swupdate" groups="yocto" remote="nexell" revision="sumo" />
+    <project path="yocto/meta-nexell" name="yocto_meta-nexell" groups="yocto" remote="nexell" revision="sumo" />
+    <project path="library/nx-drm-allocator" name="linux_library_nx-drm-allocator" groups="library" remote="nexell" revision="nexell" />
+    <project path="library/nx-v4l2" name="linux_library_nx-v4l2" groups="library" remote="nexell" revision="nexell" />
+    <project path="library/nx-video-api" name="linux_library_nx-video-api" groups="library" remote="nexell" revision="nexell" />
+    <project path="library/nx-uds" name="linux_library_nx_uds" groups="library" remote="nexell" revision="nexell" />
+    <project path="library/nx-config" name="linux_library_nx_config" groups="library" remote="nexell" revision="master" />
+    <project path="library/nx-gst-meta" name="linux_library_nx-gst-meta" groups="library" remote="nexell" revision="nexell" />
+    <project path="library/gst-plugins-video-dec" name="linux_library_gst-plugins-video-dec" groups="library" remote="nexell" revision="nexell" />
+    <project path="library/gst-plugins-video-sink" name="linux_library_gst-plugins-video-sink" groups="library" remote="nexell" revision="nexell" />
+    <project path="library/libdirectfb-nexell" name="linux_library_libdirectfb-nexell" groups="library" remote="nexell" revision="nexell" />
+    <project path="library/libdrm" name="linux_library_libdrm" groups="library" remote="nexell" revision="nexell" />
+    <project path="library/nx-renderer" name="linux_library_nx-renderer" groups="library" remote="nexell" revision="nexell" />
+    <project path="library/nx-scaler" name="linux_library_nx-scaler" groups="library" remote="nexell" revision="nexell" />
+    <project path="solutions/displayaudio-sdk" name="linux_sdk_displayaudio" groups="solutions" remote="nexell" revision="master" />
+    <project path="nx_version_info" name="nx_version_info" groups="swversion" remote="nexell" revision="master" />
+>>>>>>> CHANGE (925213 manifests: Adds nx_version_info repository)
 </manifest>
