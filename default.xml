@@ -37,4 +37,5 @@
     <project path="library/nx-renderer" name="linux_library_nx-renderer" groups="library" remote="nexell" revision="nexell" />
     <project path="library/nx-scaler" name="linux_library_nx-scaler" groups="library" remote="nexell" revision="nexell" />
     <project path="solutions/displayaudio-sdk" name="linux_sdk_displayaudio" groups="solutions" remote="nexell" revision="master" />
+    <project path="nx_version_info" name="nx_version_info" groups="nxp3220" remote="nexell" revision="master" />
 </manifest>
