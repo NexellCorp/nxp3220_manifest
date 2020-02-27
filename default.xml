@@ -35,5 +35,6 @@
     <project path="library/libdrm" name="linux_library_libdrm" groups="library" remote="nexell" />
     <project path="library/nx-renderer" name="linux_library_nx-renderer" groups="library" remote="nexell" />
     <project path="library/nx-scaler" name="linux_library_nx-scaler" groups="library" remote="nexell" />
-    <project path="solutions/displayaudio-sdk" name="linux_sdk_displayaudio" groups="solutions" remote="nexell" />
+	<project path="solutions/displayaudio-sdk" name="linux_sdk_displayaudio" groups="solutions" remote="nexell" />
+    <project path="nx_version_info" name="nx_version_info" groups="swversion" remote="nexell" />
 </manifest>
